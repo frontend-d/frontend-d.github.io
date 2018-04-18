@@ -1,0 +1,17 @@
+@media screen and (min-width: 1241px) {
+  .container {
+    width: 1240px; } }
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .middle-block img {
+    max-width: 300px; } }
+
+/* Small devices (tablets) */
+@media (min-width: 768px) and (max-width: 992px) {
+  .middle-block img {
+    max-width: 300px; } }
+
+/* Extra small devices (phones) */
+@media screen and (max-width: 768px) {
+  .middle-block img {
+    max-width: 300px; } }

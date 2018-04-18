@@ -1,0 +1,200 @@
+@font-face {
+  font-family: "arial-mt";
+  src: url("../fonts/arial-mt.otf"); }
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0; }
+
+a {
+  color: #fff;
+  text-decoration: none;
+  outline: none; }
+
+a:hover {
+  color: #fff;
+  text-decoration: none;
+  outline: none; }
+
+a:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: none; }
+
+p {
+  padding: 0;
+  color: #fff; }
+
+h3 {
+  color: #000; }
+
+body {
+  font-family: sans-serif;
+  font-size: 14px; }
+
+.p0 {
+  padding: 0; }
+
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important; }
+
+.navbar {
+  background: #5A5F68;
+  height: 115px;
+  padding: 15px 0;
+  border-bottom: 6px solid #394454;
+  -webkit-border-radius: 0;
+          border-radius: 0;
+  margin: 0; }
+  .navbar .logo-block {
+    width: 145px;
+    height: 85px;
+    background: url("../img/logo.png") no-repeat 50% 50%;
+    -webkit-background-size: 140px 85px;
+            background-size: 140px 85px;
+    text-align: center;
+    padding-top: 35px; }
+    .navbar .logo-block .red-inscription {
+      font-size: 25px;
+      font-weight: 900;
+      color: #ff0000;
+      margin-bottom: -10px; }
+    .navbar .logo-block .white-inscription {
+      font-size: 12px;
+      font-weight: 700; }
+  .navbar ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 40px;
+    font-size: 20px; }
+    .navbar ul li a {
+      font-weight: 700; }
+  .navbar .timing-block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .navbar .timing-block a {
+      padding-top: 35px;
+      font-size: 25px;
+      font-weight: 700;
+      color: #ff0000; }
+    .navbar .timing-block p {
+      font-weight: 600;
+      letter-spacing: 1px; }
+
+.top-section {
+  background: url("../img/top-section-bg.jpg") no-repeat 50% 50%;
+  -webkit-background-size: cover;
+          background-size: cover;
+  text-align: center;
+  height: 850px; }
+  .top-section .top-captoin {
+    font-size: 50px;
+    color: #1d1d1b;
+    font-weight: 700;
+    background: #adc80b;
+    display: block;
+    width: 800px;
+    margin: 20px auto;
+    padding: 20px 0; }
+  .top-section .top-sub-captoin {
+    font-size: 32px;
+    color: #1d1d1b;
+    font-weight: 800; }
+  .top-section .buer-services {
+    text-align: left; }
+    .top-section .buer-services .service-1 {
+      margin-left: 35%;
+      margin-top: 20px; }
+    .top-section .buer-services .service-2 {
+      margin-left: 10%;
+      margin-top: 20px; }
+    .top-section .buer-services .service-3 {
+      display: block;
+      width: 430px;
+      background: url("../img/arrow.svg") no-repeat 97% 50%, #5a5f68;
+      -webkit-background-size: 20px 20px;
+              background-size: 20px;
+      margin-top: 25px; }
+    .top-section .buer-services .service-4 {
+      margin-left: 35%;
+      background: url("../img/arrow.svg") no-repeat 97% 50%, #5a5f68;
+      -webkit-background-size: 20px 20px;
+              background-size: 20px;
+      margin-top: 100px; }
+    .top-section .buer-services .service-5 {
+      margin-top: 110px; }
+    .top-section .buer-services .service-6 {
+      margin-left: 7%;
+      background: url("../img/arrow.svg") no-repeat 96.5% 50%, #5a5f68;
+      -webkit-background-size: 20px 20px;
+              background-size: 20px; }
+    .top-section .buer-services .service-7 {
+      margin-left: 25%;
+      margin-top: 30px; }
+    .top-section .buer-services li {
+      display: inline-block;
+      margin-bottom: 10px;
+      width: auto;
+      background: url("../img/arrow.svg") no-repeat 97.5% 50%, #5a5f68;
+      -webkit-background-size: 20px 20px;
+              background-size: 20px;
+      -webkit-border-radius: 20px;
+              border-radius: 20px;
+      height: 31.5px;
+      padding-right: 45px;
+      position: relative; }
+      .top-section .buer-services li:hover {
+        cursor: pointer; }
+      .top-section .buer-services li:hover .description-menu {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: auto;
+        background: #fff;
+        opacity: 0.9;
+        -webkit-border-radius: 16px;
+                border-radius: 16px;
+        text-align: center;
+        z-index: 6;
+        padding: 10px 0; }
+        .top-section .buer-services li:hover .description-menu p {
+          background: #fff;
+          font-size: 17px;
+          -webkit-border-radius: 15px;
+                  border-radius: 15px;
+          font-weight: 600; }
+      .top-section .buer-services li .description-menu {
+        display: none; }
+      .top-section .buer-services li p {
+        -webkit-border-radius: 16px 0 0 16px;
+                border-radius: 16px 0 0 16px;
+        padding-left: 20px;
+        padding-right: 10px;
+        background: #adc80b;
+        font-size: 22px;
+        color: #1d1d1b;
+        font-weight: 800; }
